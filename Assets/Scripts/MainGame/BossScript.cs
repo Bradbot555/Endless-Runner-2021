@@ -126,8 +126,11 @@ public class BossScript : MonoBehaviour
     }
     private void CheckMaxDrops(int max)
     {
+        Debug.Log(Drops.Count + "| Drops number count before tag check");
         Drops = GameObject.FindGameObjectsWithTag("BossDrop").ToList();
-        if (Drops.Count > max)
+        Debug.Log(Drops.Count + "| Drops number count after tag check"); 
+
+        if (Drops.Count >= max)
         {
             CancelInvoke("SpawnInCircle");
             return;

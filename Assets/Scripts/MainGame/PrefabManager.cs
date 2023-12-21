@@ -61,7 +61,7 @@ public class PrefabManager : MonoBehaviour
                 break;
             case LevelCurrent.LVL2:
                 Lvl = LevelCurrent.LVL2BOSS;
-                //Boss1.SetActive(true);
+                Boss1.SetActive(true);
                 yield return new WaitForSecondsRealtime(1f);
                 break;
             case LevelCurrent.LVL2BOSS:

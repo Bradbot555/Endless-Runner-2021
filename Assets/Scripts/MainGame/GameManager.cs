@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static PickupManager PickupManager;
+    public static PrefabManager PrefabManager;
     public static GameManager manager; //Singleton so we can set the speed and score for other scripts
     private bool doublePoints = false;
     private float pointDuration;
