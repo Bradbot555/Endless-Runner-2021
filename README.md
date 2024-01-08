@@ -1,6 +1,7 @@
 # Task-POE
 Endless Runner
-![GADE 2021 POE Game (compressed)](https://github.com/Bradbot555/Endless-Runner-2021/assets/55479443/64856bc0-39df-436b-a416-a1bff79278d8)
+![GADE 2021 POE Game (compressed)](https://github.com/Bradbot555/Endless-Runner-2021/assets/55479443/f8755857-8dbc-48e6-b3af-b451f31fe859)
+
 
 
 In this task, I was challenged to create an 'endless runner' type game where the goal is simply to live for as long as possible. Much like those app games you find on mobile, such as Subway Surfers.
